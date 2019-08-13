@@ -17,15 +17,16 @@ namespace Poly_Dormitory
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Halla_Click(object sender, EventArgs e)
         {
             Halla h = new Halla();
             h.Show();
         }
-        private void button2_Click(object sender, EventArgs e)
+
+        private void BaekDu_Click(object sender, EventArgs e)
         {
             Baekdu b = new Baekdu();
-            b.Show();  
+            b.Show();
         }
     }
 }
