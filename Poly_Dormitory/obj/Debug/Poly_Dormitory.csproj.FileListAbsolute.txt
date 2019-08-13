@@ -1,0 +1,82 @@
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe.config
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.pdb
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Properties.Resources.resources
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.GenerateResource.cache
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.exe
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.pdb
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla.resources
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Main.resources
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_New.resources
+C:\Users\Home\source\repos\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Room.resources
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe.config
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.pdb
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csprojAssemblyReference.cache
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla.resources
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_New.resources
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Room.resources
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Main.resources
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Properties.Resources.resources
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.GenerateResource.cache
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.CoreCompileInputs.cache
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.exe
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.pdb
+C:\Users\Enan\Desktop\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Stat.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe.config
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.pdb
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csprojAssemblyReference.cache
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Stat.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Main.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Properties.Resources.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.GenerateResource.cache
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.CoreCompileInputs.cache
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.exe
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.pdb
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_S_New.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_S_Update.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\PolyDormi.mdb
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Google.Protobuf.dll
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\BouncyCastle.Crypto.dll
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\MySql.Data.xml
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.CopyComplete
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.trash.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_Build.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_Stat.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_S_New.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_S_Update.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Build.resources
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.aRoom.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\PolyDormi.mdb
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe.config
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Poly_Dormitory.pdb
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\Google.Protobuf.dll
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\BouncyCastle.Crypto.dll
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\MySql.Data.xml
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csprojAssemblyReference.cache
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_Build.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_Stat.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_S_New.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_S_Update.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Build.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_S_New.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.aRoom.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Stat.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_S_Update.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Main.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.Properties.Resources.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.trash.resources
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.GenerateResource.cache
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.CoreCompileInputs.cache
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.CopyComplete
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.exe
+E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.pdb
+D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\MySql.Data.dll
