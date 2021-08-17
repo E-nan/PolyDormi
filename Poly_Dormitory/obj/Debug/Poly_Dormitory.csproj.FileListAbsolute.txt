@@ -80,3 +80,29 @@ E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormi
 E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.exe
 E:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\obj\Debug\Poly_Dormitory.pdb
 D:\~ing\C# 개인프로젝트\Poly_Dormitory\Poly_Dormitory\bin\Debug\MySql.Data.dll
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.csprojAssemblyReference.cache
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_Build.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_Stat.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_S_New.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Baekdu_S_Update.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Build.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_S_New.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.aRoom.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_Stat.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Halla_S_Update.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Main.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.Properties.Resources.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.trash.resources
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.GenerateResource.cache
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.CoreCompileInputs.cache
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.exe
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.pdb
+C:\repo\PolyDormi\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe.config
+C:\repo\PolyDormi\Poly_Dormitory\bin\Debug\Poly_Dormitory.exe
+C:\repo\PolyDormi\Poly_Dormitory\bin\Debug\Poly_Dormitory.pdb
+C:\repo\PolyDormi\Poly_Dormitory\bin\Debug\Google.Protobuf.dll
+C:\repo\PolyDormi\Poly_Dormitory\bin\Debug\BouncyCastle.Crypto.dll
+C:\repo\PolyDormi\Poly_Dormitory\bin\Debug\MySql.Data.xml
+C:\repo\PolyDormi\Poly_Dormitory\obj\Debug\Poly_Dormitory.csproj.CopyComplete

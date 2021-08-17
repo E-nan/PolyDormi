@@ -120,16 +120,6 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="PolyDormiDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PolyDormiDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="PolyDormiDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PolyDormiDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="trash.cs">
@@ -187,28 +177,6 @@
     <EmbeddedResource Include="trash.resx">
       <DependentUpon>trash.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="PolyDormiDataSet.xsc">
-      <DependentUpon>PolyDormiDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PolyDormiDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PolyDormiDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PolyDormiDataSet.xss">
-      <DependentUpon>PolyDormiDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PolyDormiDataSet1.xsc">
-      <DependentUpon>PolyDormiDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="PolyDormiDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PolyDormiDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PolyDormiDataSet1.xss">
-      <DependentUpon>PolyDormiDataSet1.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -224,11 +192,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\폴리텍 로고.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="PolyDormi.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

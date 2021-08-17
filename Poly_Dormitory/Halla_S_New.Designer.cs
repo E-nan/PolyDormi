@@ -52,17 +52,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.hallaStuBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.polyDormiDataSet = new Poly_Dormitory.PolyDormiDataSet();
-            this.halla_StuTableAdapter = new Poly_Dormitory.PolyDormiDataSetTableAdapters.Halla_StuTableAdapter();
-            this.polyDormiDataSet1 = new Poly_Dormitory.PolyDormiDataSet1();
             this.hallaStuBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.halla_StuTableAdapter1 = new Poly_Dormitory.PolyDormiDataSet1TableAdapters.Halla_StuTableAdapter();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hallaStuBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.polyDormiDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.polyDormiDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hallaStuBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -350,30 +344,7 @@
             // hallaStuBindingSource
             // 
             this.hallaStuBindingSource.DataMember = "Halla_Stu";
-            this.hallaStuBindingSource.DataSource = this.polyDormiDataSet;
-            // 
-            // polyDormiDataSet
-            // 
-            this.polyDormiDataSet.DataSetName = "PolyDormiDataSet";
-            this.polyDormiDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // halla_StuTableAdapter
-            // 
-            this.halla_StuTableAdapter.ClearBeforeFill = true;
-            // 
-            // polyDormiDataSet1
-            // 
-            this.polyDormiDataSet1.DataSetName = "PolyDormiDataSet1";
-            this.polyDormiDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // hallaStuBindingSource1
-            // 
-            this.hallaStuBindingSource1.DataMember = "Halla_Stu";
-            this.hallaStuBindingSource1.DataSource = this.polyDormiDataSet1;
-            // 
-            // halla_StuTableAdapter1
-            // 
-            this.halla_StuTableAdapter1.ClearBeforeFill = true;
+            
             // 
             // Halla_S_New
             // 
@@ -392,8 +363,6 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hallaStuBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.polyDormiDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.polyDormiDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hallaStuBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
@@ -418,12 +387,8 @@
         private System.Windows.Forms.RadioButton btn_2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private PolyDormiDataSet polyDormiDataSet;
         private System.Windows.Forms.BindingSource hallaStuBindingSource;
-        private PolyDormiDataSetTableAdapters.Halla_StuTableAdapter halla_StuTableAdapter;
-        private PolyDormiDataSet1 polyDormiDataSet1;
         private System.Windows.Forms.BindingSource hallaStuBindingSource1;
-        private PolyDormiDataSet1TableAdapters.Halla_StuTableAdapter halla_StuTableAdapter1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox new_Num;
