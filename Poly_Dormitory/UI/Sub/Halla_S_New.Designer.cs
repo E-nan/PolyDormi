@@ -1,6 +1,6 @@
 ﻿namespace Poly_Dormitory
 {
-    partial class Baekdu_S_Update
+    partial class Halla_S_New
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label8 = new System.Windows.Forms.Label();
             this.new_Num = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -50,9 +51,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.hallaStuBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hallaStuBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hallaStuBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hallaStuBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -60,10 +65,10 @@
             this.panel1.BackColor = System.Drawing.Color.OldLace;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.new_Num);
             this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.panel3);
@@ -79,7 +84,7 @@
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 377);
-            this.panel1.TabIndex = 2;
+            this.panel1.TabIndex = 0;
             // 
             // label6
             // 
@@ -88,9 +93,25 @@
             this.label6.Location = new System.Drawing.Point(24, 19);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(151, 31);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "수정 학생 정보";
+            this.label6.TabIndex = 18;
+            this.label6.Text = "입사 학생 정보";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // new_Num
+            // 
+            this.new_Num.Location = new System.Drawing.Point(66, 175);
+            this.new_Num.Name = "new_Num";
+            this.new_Num.Size = new System.Drawing.Size(106, 21);
+            this.new_Num.TabIndex = 4;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(22, 179);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(37, 12);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "학번 :";
             // 
             // dateTimePicker1
             // 
@@ -99,7 +120,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(24, 306);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(147, 21);
-            this.dateTimePicker1.TabIndex = 21;
+            this.dateTimePicker1.TabIndex = 9;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label8
@@ -108,32 +129,15 @@
             this.label8.Location = new System.Drawing.Point(57, 287);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(85, 12);
-            this.label8.TabIndex = 15;
+            this.label8.TabIndex = 14;
             this.label8.Text = "<<입사날짜>>";
-            // 
-            // new_Num
-            // 
-            this.new_Num.Enabled = false;
-            this.new_Num.Location = new System.Drawing.Point(66, 175);
-            this.new_Num.Name = "new_Num";
-            this.new_Num.Size = new System.Drawing.Size(106, 21);
-            this.new_Num.TabIndex = 20;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(22, 179);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(37, 12);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "학번 :";
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(105, 335);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(67, 23);
-            this.button2.TabIndex = 13;
+            this.button2.TabIndex = 11;
             this.button2.Text = "닫기";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -143,8 +147,8 @@
             this.button1.Location = new System.Drawing.Point(24, 335);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(67, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "수정";
+            this.button1.TabIndex = 10;
+            this.button1.Text = "생성";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -155,7 +159,7 @@
             this.panel3.Location = new System.Drawing.Point(62, 243);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(113, 29);
-            this.panel3.TabIndex = 11;
+            this.panel3.TabIndex = 7;
             // 
             // btn_Female
             // 
@@ -163,7 +167,7 @@
             this.btn_Female.Location = new System.Drawing.Point(62, 5);
             this.btn_Female.Name = "btn_Female";
             this.btn_Female.Size = new System.Drawing.Size(35, 16);
-            this.btn_Female.TabIndex = 1;
+            this.btn_Female.TabIndex = 8;
             this.btn_Female.TabStop = true;
             this.btn_Female.Text = "여";
             this.btn_Female.UseVisualStyleBackColor = true;
@@ -174,7 +178,7 @@
             this.btn_Male.Location = new System.Drawing.Point(6, 5);
             this.btn_Male.Name = "btn_Male";
             this.btn_Male.Size = new System.Drawing.Size(35, 16);
-            this.btn_Male.TabIndex = 0;
+            this.btn_Male.TabIndex = 7;
             this.btn_Male.TabStop = true;
             this.btn_Male.Text = "남";
             this.btn_Male.UseVisualStyleBackColor = true;
@@ -184,18 +188,18 @@
             this.panel2.BackColor = System.Drawing.Color.OldLace;
             this.panel2.Controls.Add(this.btn_1);
             this.panel2.Controls.Add(this.btn_2);
-            this.panel2.Location = new System.Drawing.Point(64, 207);
+            this.panel2.Location = new System.Drawing.Point(64, 210);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(112, 30);
-            this.panel2.TabIndex = 10;
+            this.panel2.Size = new System.Drawing.Size(112, 23);
+            this.panel2.TabIndex = 5;
             // 
             // btn_1
             // 
             this.btn_1.AutoSize = true;
-            this.btn_1.Location = new System.Drawing.Point(4, 5);
+            this.btn_1.Location = new System.Drawing.Point(4, 2);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(53, 16);
-            this.btn_1.TabIndex = 8;
+            this.btn_1.TabIndex = 5;
             this.btn_1.TabStop = true;
             this.btn_1.Text = "1학년";
             this.btn_1.UseVisualStyleBackColor = true;
@@ -203,10 +207,10 @@
             // btn_2
             // 
             this.btn_2.AutoSize = true;
-            this.btn_2.Location = new System.Drawing.Point(60, 5);
+            this.btn_2.Location = new System.Drawing.Point(60, 2);
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(53, 16);
-            this.btn_2.TabIndex = 9;
+            this.btn_2.TabIndex = 5;
             this.btn_2.TabStop = true;
             this.btn_2.Text = "2학년";
             this.btn_2.UseVisualStyleBackColor = true;
@@ -227,20 +231,19 @@
             "정보통신",
             "디지털방송",
             "산업디자인",
-            "신소재응용",
+            "신소재승용",
             "건축설계"});
             this.new_Class.Location = new System.Drawing.Point(66, 140);
             this.new_Class.Name = "new_Class";
             this.new_Class.Size = new System.Drawing.Size(107, 20);
-            this.new_Class.TabIndex = 7;
+            this.new_Class.TabIndex = 3;
             // 
             // new_Name
             // 
-            this.new_Name.Enabled = false;
             this.new_Name.Location = new System.Drawing.Point(66, 104);
             this.new_Name.Name = "new_Name";
             this.new_Name.Size = new System.Drawing.Size(106, 21);
-            this.new_Name.TabIndex = 6;
+            this.new_Name.TabIndex = 2;
             // 
             // new_Room
             // 
@@ -249,11 +252,49 @@
             this.new_Room.FormattingEnabled = true;
             this.new_Room.Items.AddRange(new object[] {
             "101",
-            "102"});
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "201",
+            "202",
+            "203",
+            "204",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "301",
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "401",
+            "402",
+            "403",
+            "404",
+            "405",
+            "406",
+            "407",
+            "408",
+            "409",
+            "410"});
             this.new_Room.Location = new System.Drawing.Point(66, 70);
             this.new_Room.Name = "new_Room";
             this.new_Room.Size = new System.Drawing.Size(107, 20);
-            this.new_Room.TabIndex = 5;
+            this.new_Room.TabIndex = 1;
             // 
             // label5
             // 
@@ -300,23 +341,29 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "호실 :";
             // 
-            // Baekdu_S_Update
+            // hallaStuBindingSource
+            // 
+            this.hallaStuBindingSource.DataMember = "Halla_Stu";
+            // 
+            // Halla_S_New
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(224, 401);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
-            this.Name = "Baekdu_S_Update";
-            this.Text = "백두관_수정";
-            this.Load += new System.EventHandler(this.Baekdu_S_Update_Load);
+            this.Name = "Halla_S_New";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "한라관_입사";
+            this.Load += new System.EventHandler(this.Halla_S_New_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hallaStuBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hallaStuBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -324,26 +371,28 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox new_Num;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox new_Class;
+        private System.Windows.Forms.TextBox new_Name;
+        private System.Windows.Forms.ComboBox new_Room;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RadioButton btn_Female;
         private System.Windows.Forms.RadioButton btn_Male;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.RadioButton btn_1;
         private System.Windows.Forms.RadioButton btn_2;
-        private System.Windows.Forms.ComboBox new_Class;
-        private System.Windows.Forms.TextBox new_Name;
-        private System.Windows.Forms.ComboBox new_Room;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.BindingSource hallaStuBindingSource;
+        private System.Windows.Forms.BindingSource hallaStuBindingSource1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox new_Num;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label6;
     }
 }

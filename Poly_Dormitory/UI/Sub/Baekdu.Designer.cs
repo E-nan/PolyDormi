@@ -1,6 +1,6 @@
 ﻿namespace Poly_Dormitory
 {
-    partial class Halla
+    partial class Baekdu
     {
         /// <summary>
         /// Required designer variable.
@@ -35,24 +35,24 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.info_sex = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.stu_search = new System.Windows.Forms.TextBox();
             this.search = new System.Windows.Forms.Button();
-            this.info_sex = new System.Windows.Forms.TextBox();
-            this.info_join = new System.Windows.Forms.TextBox();
-            this.info_room = new System.Windows.Forms.TextBox();
-            this.info_major = new System.Windows.Forms.TextBox();
-            this.info_grade = new System.Windows.Forms.TextBox();
-            this.info_num = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.info_name = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.info_join = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.info_grade = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.info_num = new System.Windows.Forms.TextBox();
+            this.info_room = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.info_major = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.Build_View = new System.Windows.Forms.ListView();
             this.층 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -84,11 +84,10 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.Second = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.Second = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Build_ = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -116,15 +115,15 @@
             this.panel1.Location = new System.Drawing.Point(14, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(998, 637);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Gold;
-            this.button5.Location = new System.Drawing.Point(779, 15);
+            this.button5.Location = new System.Drawing.Point(778, 15);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(204, 36);
-            this.button5.TabIndex = 14;
+            this.button5.TabIndex = 15;
             this.button5.Text = "Poly Dormi 메인 돌아가기";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -147,7 +146,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(526, 37);
             this.label13.TabIndex = 13;
-            this.label13.Text = "한라관 학생 및 시설 정보";
+            this.label13.Text = "백두관 학생 및 시설 정보";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox4
@@ -169,33 +168,43 @@
             this.textBox3.Location = new System.Drawing.Point(32, 214);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(101, 14);
+            this.textBox3.Size = new System.Drawing.Size(115, 14);
             this.textBox3.TabIndex = 12;
-            this.textBox3.Text = "고장난 시설 정보";
+            this.textBox3.Text = "현재 고장 시설 정보";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.panel6);
             this.panel5.Controls.Add(this.info_sex);
-            this.panel5.Controls.Add(this.info_join);
-            this.panel5.Controls.Add(this.info_room);
-            this.panel5.Controls.Add(this.info_major);
-            this.panel5.Controls.Add(this.info_grade);
-            this.panel5.Controls.Add(this.info_num);
-            this.panel5.Controls.Add(this.label11);
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Controls.Add(this.label9);
+            this.panel5.Controls.Add(this.panel6);
             this.panel5.Controls.Add(this.info_name);
-            this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.label7);
+            this.panel5.Controls.Add(this.info_join);
             this.panel5.Controls.Add(this.label8);
+            this.panel5.Controls.Add(this.label5);
+            this.panel5.Controls.Add(this.info_grade);
+            this.panel5.Controls.Add(this.label7);
+            this.panel5.Controls.Add(this.info_num);
+            this.panel5.Controls.Add(this.info_room);
+            this.panel5.Controls.Add(this.label11);
+            this.panel5.Controls.Add(this.label9);
+            this.panel5.Controls.Add(this.info_major);
+            this.panel5.Controls.Add(this.label10);
             this.panel5.Location = new System.Drawing.Point(778, 283);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(205, 333);
             this.panel5.TabIndex = 12;
+            // 
+            // info_sex
+            // 
+            this.info_sex.BackColor = System.Drawing.Color.Wheat;
+            this.info_sex.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.info_sex.Location = new System.Drawing.Point(77, 263);
+            this.info_sex.Name = "info_sex";
+            this.info_sex.ReadOnly = true;
+            this.info_sex.Size = new System.Drawing.Size(92, 14);
+            this.info_sex.TabIndex = 34;
             // 
             // panel6
             // 
@@ -234,93 +243,6 @@
             this.search.UseVisualStyleBackColor = true;
             this.search.Click += new System.EventHandler(this.search_Click);
             // 
-            // info_sex
-            // 
-            this.info_sex.BackColor = System.Drawing.Color.Wheat;
-            this.info_sex.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.info_sex.Location = new System.Drawing.Point(77, 263);
-            this.info_sex.Name = "info_sex";
-            this.info_sex.ReadOnly = true;
-            this.info_sex.Size = new System.Drawing.Size(92, 14);
-            this.info_sex.TabIndex = 21;
-            // 
-            // info_join
-            // 
-            this.info_join.BackColor = System.Drawing.Color.Wheat;
-            this.info_join.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.info_join.Location = new System.Drawing.Point(77, 297);
-            this.info_join.Name = "info_join";
-            this.info_join.ReadOnly = true;
-            this.info_join.Size = new System.Drawing.Size(92, 14);
-            this.info_join.TabIndex = 20;
-            // 
-            // info_room
-            // 
-            this.info_room.BackColor = System.Drawing.Color.Wheat;
-            this.info_room.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.info_room.Location = new System.Drawing.Point(77, 225);
-            this.info_room.Name = "info_room";
-            this.info_room.ReadOnly = true;
-            this.info_room.Size = new System.Drawing.Size(92, 14);
-            this.info_room.TabIndex = 19;
-            // 
-            // info_major
-            // 
-            this.info_major.BackColor = System.Drawing.Color.Wheat;
-            this.info_major.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.info_major.Location = new System.Drawing.Point(77, 192);
-            this.info_major.Name = "info_major";
-            this.info_major.ReadOnly = true;
-            this.info_major.Size = new System.Drawing.Size(92, 14);
-            this.info_major.TabIndex = 18;
-            // 
-            // info_grade
-            // 
-            this.info_grade.BackColor = System.Drawing.Color.Wheat;
-            this.info_grade.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.info_grade.Location = new System.Drawing.Point(77, 156);
-            this.info_grade.Name = "info_grade";
-            this.info_grade.ReadOnly = true;
-            this.info_grade.Size = new System.Drawing.Size(92, 14);
-            this.info_grade.TabIndex = 17;
-            // 
-            // info_num
-            // 
-            this.info_num.BackColor = System.Drawing.Color.Wheat;
-            this.info_num.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.info_num.Location = new System.Drawing.Point(77, 122);
-            this.info_num.Name = "info_num";
-            this.info_num.ReadOnly = true;
-            this.info_num.Size = new System.Drawing.Size(92, 14);
-            this.info_num.TabIndex = 16;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(34, 297);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(37, 12);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "입사 :";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(34, 263);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(37, 12);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "성별 :";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(34, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 12);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "학년 :";
-            // 
             // info_name
             // 
             this.info_name.BackColor = System.Drawing.Color.Wheat;
@@ -333,32 +255,24 @@
             this.info_name.TabIndex = 11;
             this.info_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(34, 124);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 12);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "학번 :";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(34, 192);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(37, 12);
-            this.label6.TabIndex = 2;
+            this.label6.TabIndex = 24;
             this.label6.Text = "학과 :";
             // 
-            // label7
+            // info_join
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(34, 227);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 12);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "호실 :";
+            this.info_join.BackColor = System.Drawing.Color.Wheat;
+            this.info_join.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.info_join.Location = new System.Drawing.Point(77, 297);
+            this.info_join.Name = "info_join";
+            this.info_join.ReadOnly = true;
+            this.info_join.Size = new System.Drawing.Size(92, 14);
+            this.info_join.TabIndex = 33;
             // 
             // label8
             // 
@@ -369,6 +283,91 @@
             this.label8.Size = new System.Drawing.Size(96, 21);
             this.label8.TabIndex = 0;
             this.label8.Text = "학생의 정보";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(34, 124);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(37, 12);
+            this.label5.TabIndex = 25;
+            this.label5.Text = "학번 :";
+            // 
+            // info_grade
+            // 
+            this.info_grade.BackColor = System.Drawing.Color.Wheat;
+            this.info_grade.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.info_grade.Location = new System.Drawing.Point(77, 156);
+            this.info_grade.Name = "info_grade";
+            this.info_grade.ReadOnly = true;
+            this.info_grade.Size = new System.Drawing.Size(92, 14);
+            this.info_grade.TabIndex = 30;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(34, 227);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(37, 12);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "호실 :";
+            // 
+            // info_num
+            // 
+            this.info_num.BackColor = System.Drawing.Color.Wheat;
+            this.info_num.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.info_num.Location = new System.Drawing.Point(77, 122);
+            this.info_num.Name = "info_num";
+            this.info_num.ReadOnly = true;
+            this.info_num.Size = new System.Drawing.Size(92, 14);
+            this.info_num.TabIndex = 29;
+            // 
+            // info_room
+            // 
+            this.info_room.BackColor = System.Drawing.Color.Wheat;
+            this.info_room.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.info_room.Location = new System.Drawing.Point(77, 225);
+            this.info_room.Name = "info_room";
+            this.info_room.ReadOnly = true;
+            this.info_room.Size = new System.Drawing.Size(92, 14);
+            this.info_room.TabIndex = 32;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(34, 297);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(37, 12);
+            this.label11.TabIndex = 28;
+            this.label11.Text = "입사 :";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(34, 158);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(37, 12);
+            this.label9.TabIndex = 26;
+            this.label9.Text = "학년 :";
+            // 
+            // info_major
+            // 
+            this.info_major.BackColor = System.Drawing.Color.Wheat;
+            this.info_major.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.info_major.Location = new System.Drawing.Point(77, 192);
+            this.info_major.Name = "info_major";
+            this.info_major.ReadOnly = true;
+            this.info_major.Size = new System.Drawing.Size(92, 14);
+            this.info_major.TabIndex = 31;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(34, 263);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(37, 12);
+            this.label10.TabIndex = 27;
+            this.label10.Text = "성별 :";
             // 
             // panel4
             // 
@@ -387,10 +386,11 @@
             this.층,
             this.columnHeader1});
             this.Build_View.FullRowSelect = true;
+            this.Build_View.HideSelection = false;
             this.Build_View.Location = new System.Drawing.Point(14, 17);
             this.Build_View.Name = "Build_View";
             this.Build_View.Size = new System.Drawing.Size(174, 335);
-            this.Build_View.TabIndex = 6;
+            this.Build_View.TabIndex = 7;
             this.Build_View.UseCompatibleStateImageBehavior = false;
             this.Build_View.View = System.Windows.Forms.View.Details;
             this.Build_View.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Build_View_MouseClick);
@@ -462,13 +462,13 @@
             this.학년,
             this.성별});
             this.Student_View.FullRowSelect = true;
+            this.Student_View.HideSelection = false;
             this.Student_View.Location = new System.Drawing.Point(14, 17);
             this.Student_View.Name = "Student_View";
             this.Student_View.Size = new System.Drawing.Size(495, 480);
-            this.Student_View.TabIndex = 10;
+            this.Student_View.TabIndex = 9;
             this.Student_View.UseCompatibleStateImageBehavior = false;
             this.Student_View.View = System.Windows.Forms.View.Details;
-            this.Student_View.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Student_View_MouseClick);
             // 
             // 호실
             // 
@@ -545,7 +545,7 @@
             this.Stu_Out.TabIndex = 5;
             this.Stu_Out.Text = "퇴사";
             this.Stu_Out.UseVisualStyleBackColor = true;
-            this.Stu_Out.Click += new System.EventHandler(this.Stu_Remove_Click);
+            this.Stu_Out.Click += new System.EventHandler(this.Stu_Out_Click);
             // 
             // Stu_Update
             // 
@@ -580,8 +580,8 @@
             this.panel2.Controls.Add(this.comboBox2);
             this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.Second);
             this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.Second);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(778, 75);
@@ -717,6 +717,15 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "4층 :";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(10, 108);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(31, 12);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "3층 :";
+            // 
             // Second
             // 
             this.Second.Location = new System.Drawing.Point(149, 68);
@@ -726,15 +735,6 @@
             this.Second.Text = "☞";
             this.Second.UseVisualStyleBackColor = true;
             this.Second.Click += new System.EventHandler(this.Second_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 108);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 12);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "3층 :";
             // 
             // label2
             // 
@@ -754,16 +754,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "1층 :";
             // 
-            // Build_
-            // 
-            this.Build_.Location = new System.Drawing.Point(73, 149);
-            this.Build_.Name = "Build_";
-            this.Build_.Size = new System.Drawing.Size(51, 26);
-            this.Build_.TabIndex = 4;
-            this.Build_.Text = "수정";
-            this.Build_.UseVisualStyleBackColor = true;
-            // 
-            // Halla
+            // Baekdu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -771,9 +762,11 @@
             this.ClientSize = new System.Drawing.Size(1024, 661);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
-            this.Name = "Halla";
-            this.Text = "한라관";
-            this.Load += new System.EventHandler(this.Halla_Load);
+            this.Name = "Baekdu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "백두관";
+            this.Load += new System.EventHandler(this.Baekdu_Load);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Student_View_MouseClick);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -792,16 +785,34 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox stu_search;
+        private System.Windows.Forms.Button search;
+        private System.Windows.Forms.TextBox info_name;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button Build_Repair;
+        private System.Windows.Forms.Button Build_New;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button btn_refresh;
+        private System.Windows.Forms.Button Stat;
+        private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.Button Stu_New;
+        private System.Windows.Forms.Button Stu_Out;
+        private System.Windows.Forms.Button Stu_Update;
+        private System.Windows.Forms.Button Second;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button Fourth;
+        private System.Windows.Forms.Button Third;
+        private System.Windows.Forms.Button First;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
@@ -810,45 +821,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button Second;
-        private System.Windows.Forms.Button Build_New;
-        private System.Windows.Forms.Button Third;
-        private System.Windows.Forms.Button First;
-        private System.Windows.Forms.Button Build_;
-        private System.Windows.Forms.Button Stu_Update;
-        private System.Windows.Forms.Button Stu_New;
-        private System.Windows.Forms.Button Stu_Out;
-        private System.Windows.Forms.Button Exit;
-        private System.Windows.Forms.Button Stat;
-        private System.Windows.Forms.Button Fourth;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button search;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox stu_search;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox info_name;
-        private System.Windows.Forms.TextBox info_sex;
-        private System.Windows.Forms.TextBox info_join;
-        private System.Windows.Forms.TextBox info_room;
-        private System.Windows.Forms.TextBox info_major;
-        private System.Windows.Forms.TextBox info_grade;
-        private System.Windows.Forms.TextBox info_num;
-        public System.Windows.Forms.Button btn_refresh;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button Build_Repair;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.ListView Student_View;
         private System.Windows.Forms.ColumnHeader 호실;
@@ -860,5 +832,17 @@
         private System.Windows.Forms.ListView Build_View;
         private System.Windows.Forms.ColumnHeader 층;
         private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.TextBox info_sex;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox info_join;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox info_grade;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox info_num;
+        private System.Windows.Forms.TextBox info_room;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox info_major;
+        private System.Windows.Forms.Label label10;
     }
 }

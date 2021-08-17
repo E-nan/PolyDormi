@@ -1,6 +1,6 @@
 ﻿namespace Poly_Dormitory
 {
-    partial class Baekdu_Stat
+    partial class Halla_Stat
     {
         /// <summary>
         /// Required designer variable.
@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.AllClear = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.Now_View = new System.Windows.Forms.ListView();
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.AllClear = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -69,43 +69,25 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.OldLace;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.AllClear);
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(13, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1193, 637);
-            this.panel1.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Poly_Dormitory.Properties.Resources.폴리텍_로고;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(222, 190);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label13
-            // 
-            this.label13.BackColor = System.Drawing.Color.Tan;
-            this.label13.Font = new System.Drawing.Font("돋움", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label13.Location = new System.Drawing.Point(253, 15);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(569, 37);
-            this.label13.TabIndex = 21;
-            this.label13.Text = "백두관 학생 및 시설 현황";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.panel1.TabIndex = 0;
             // 
             // textBox2
             // 
@@ -119,6 +101,16 @@
             this.textBox2.Text = "시설 고장/수리 현황";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Poly_Dormitory.Properties.Resources.폴리텍_로고;
+            this.pictureBox1.Location = new System.Drawing.Point(17, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(222, 190);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.OldLace;
@@ -130,6 +122,27 @@
             this.textBox3.TabIndex = 18;
             this.textBox3.Text = "기숙사 현황";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.Tan;
+            this.label13.Font = new System.Drawing.Font("돋움", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label13.Location = new System.Drawing.Point(253, 15);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(569, 37);
+            this.label13.TabIndex = 21;
+            this.label13.Text = "한라관 학생 및 시설 현황";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AllClear
+            // 
+            this.AllClear.Location = new System.Drawing.Point(902, 15);
+            this.AllClear.Name = "AllClear";
+            this.AllClear.Size = new System.Drawing.Size(103, 37);
+            this.AllClear.TabIndex = 16;
+            this.AllClear.Text = "데이터 초기화";
+            this.AllClear.UseVisualStyleBackColor = true;
+            this.AllClear.Click += new System.EventHandler(this.AllClear_Click);
             // 
             // panel4
             // 
@@ -147,10 +160,11 @@
             this.columnHeader5,
             this.columnHeader11});
             this.Now_View.FullRowSelect = true;
+            this.Now_View.HideSelection = false;
             this.Now_View.Location = new System.Drawing.Point(16, 18);
             this.Now_View.Name = "Now_View";
             this.Now_View.Size = new System.Drawing.Size(188, 367);
-            this.Now_View.TabIndex = 2;
+            this.Now_View.TabIndex = 3;
             this.Now_View.UseCompatibleStateImageBehavior = false;
             this.Now_View.View = System.Windows.Forms.View.Details;
             // 
@@ -162,21 +176,12 @@
             // columnHeader5
             // 
             this.columnHeader5.Text = "A";
-            this.columnHeader5.Width = 63;
+            this.columnHeader5.Width = 54;
             // 
             // columnHeader11
             // 
             this.columnHeader11.Text = "B";
-            // 
-            // AllClear
-            // 
-            this.AllClear.Location = new System.Drawing.Point(902, 15);
-            this.AllClear.Name = "AllClear";
-            this.AllClear.Size = new System.Drawing.Size(103, 37);
-            this.AllClear.TabIndex = 16;
-            this.AllClear.Text = "데이터 초기화";
-            this.AllClear.UseVisualStyleBackColor = true;
-            this.AllClear.Click += new System.EventHandler(this.AllClear_Click);
+            this.columnHeader11.Width = 55;
             // 
             // button1
             // 
@@ -192,10 +197,10 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.OldLace;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(271, 66);
+            this.textBox1.Location = new System.Drawing.Point(268, 66);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(90, 14);
+            this.textBox1.Size = new System.Drawing.Size(94, 14);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "입사/퇴사 현황";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -221,10 +226,11 @@
             this.columnHeader2,
             this.columnHeader10});
             this.Student_View.FullRowSelect = true;
+            this.Student_View.HideSelection = false;
             this.Student_View.Location = new System.Drawing.Point(14, 18);
             this.Student_View.Name = "Student_View";
             this.Student_View.Size = new System.Drawing.Size(441, 489);
-            this.Student_View.TabIndex = 20;
+            this.Student_View.TabIndex = 21;
             this.Student_View.UseCompatibleStateImageBehavior = false;
             this.Student_View.View = System.Windows.Forms.View.Details;
             this.Student_View.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Student_View_MouseClick);
@@ -282,7 +288,7 @@
             this.panel3.Location = new System.Drawing.Point(746, 72);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(428, 550);
-            this.panel3.TabIndex = 22;
+            this.panel3.TabIndex = 3;
             // 
             // button4
             // 
@@ -292,6 +298,7 @@
             this.button4.TabIndex = 18;
             this.button4.Text = "시설 삭제";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Build_View
             // 
@@ -303,6 +310,7 @@
             this.columnHeader16,
             this.columnHeader15});
             this.Build_View.FullRowSelect = true;
+            this.Build_View.HideSelection = false;
             this.Build_View.Location = new System.Drawing.Point(16, 18);
             this.Build_View.Name = "Build_View";
             this.Build_View.Size = new System.Drawing.Size(394, 489);
@@ -341,17 +349,19 @@
             this.columnHeader15.Text = "수리 날짜";
             this.columnHeader15.Width = 85;
             // 
-            // Baekdu_Stat
+            // Halla_Stat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1218, 661);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.MaximizeBox = false;
-            this.Name = "Baekdu_Stat";
-            this.Text = "백두관_현황";
-            this.Load += new System.EventHandler(this.Baekdu_Stat_Load);
+            this.Name = "Halla_Stat";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "한라관_현황";
+            this.Load += new System.EventHandler(this.Halla_Stat_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -365,16 +375,27 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button AllClear;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.ListView Build_View;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button AllClear;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ColumnHeader columnHeader12;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ListView Now_View;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.ListView Student_View;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader13;
@@ -383,17 +404,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader9;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.ListView Now_View;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader11;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ListView Build_View;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader12;
         private System.Windows.Forms.ColumnHeader columnHeader16;
         private System.Windows.Forms.ColumnHeader columnHeader15;
     }

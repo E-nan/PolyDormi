@@ -1,6 +1,6 @@
 ﻿namespace Poly_Dormitory
 {
-    partial class Halla_Build
+    partial class Baekdu_Build
     {
         /// <summary>
         /// Required designer variable.
@@ -61,14 +61,14 @@
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(219, 235);
-            this.panel1.TabIndex = 1;
+            this.panel1.TabIndex = 2;
             // 
             // build_name
             // 
             this.build_name.Location = new System.Drawing.Point(74, 100);
             this.build_name.Name = "build_name";
             this.build_name.Size = new System.Drawing.Size(107, 21);
-            this.build_name.TabIndex = 20;
+            this.build_name.TabIndex = 21;
             // 
             // label6
             // 
@@ -88,6 +88,7 @@
             this.btn_4.Name = "btn_4";
             this.btn_4.Size = new System.Drawing.Size(41, 16);
             this.btn_4.TabIndex = 8;
+            this.btn_4.TabStop = true;
             this.btn_4.Text = "4층";
             this.btn_4.UseVisualStyleBackColor = true;
             // 
@@ -98,6 +99,7 @@
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(41, 16);
             this.btn_2.TabIndex = 5;
+            this.btn_2.TabStop = true;
             this.btn_2.Text = "2층";
             this.btn_2.UseVisualStyleBackColor = true;
             // 
@@ -108,13 +110,13 @@
             this.btn_3.Name = "btn_3";
             this.btn_3.Size = new System.Drawing.Size(41, 16);
             this.btn_3.TabIndex = 7;
+            this.btn_3.TabStop = true;
             this.btn_3.Text = "3층";
             this.btn_3.UseVisualStyleBackColor = true;
             // 
             // btn_1
             // 
             this.btn_1.AutoSize = true;
-            this.btn_1.Checked = true;
             this.btn_1.Location = new System.Drawing.Point(28, 67);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(41, 16);
@@ -171,7 +173,7 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "시설 :";
             // 
-            // Halla_Build
+            // Baekdu_Build
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -179,9 +181,10 @@
             this.ClientSize = new System.Drawing.Size(243, 259);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
-            this.Name = "Halla_Build";
-            this.Text = "한라관_시설";
-            this.Load += new System.EventHandler(this.Build_New_Load);
+            this.Name = "Baekdu_Build";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "백두관_시설";
+            this.Load += new System.EventHandler(this.Baekdu_Build_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -191,16 +194,16 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.RadioButton btn_4;
+        private System.Windows.Forms.RadioButton btn_2;
+        private System.Windows.Forms.RadioButton btn_3;
+        private System.Windows.Forms.RadioButton btn_1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton btn_4;
-        private System.Windows.Forms.RadioButton btn_3;
-        private System.Windows.Forms.RadioButton btn_1;
-        private System.Windows.Forms.RadioButton btn_2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox build_name;
     }
 }

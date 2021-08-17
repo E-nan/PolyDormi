@@ -41,12 +41,11 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.PowderBlue;
-            this.button1.Font = new System.Drawing.Font("휴먼매직체", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(234, 458);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(205, 366);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 109);
+            this.button1.Size = new System.Drawing.Size(148, 87);
             this.button1.TabIndex = 0;
             this.button1.Text = "한라관";
             this.button1.UseVisualStyleBackColor = false;
@@ -55,11 +54,10 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightGreen;
-            this.button2.Font = new System.Drawing.Font("휴먼매직체", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(478, 458);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.Location = new System.Drawing.Point(418, 366);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(169, 109);
+            this.button2.Size = new System.Drawing.Size(148, 87);
             this.button2.TabIndex = 1;
             this.button2.Text = "백두관";
             this.button2.UseVisualStyleBackColor = false;
@@ -77,19 +75,18 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(14, 15);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(868, 671);
+            this.panel1.Size = new System.Drawing.Size(760, 537);
             this.panel1.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Wheat;
             this.label2.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(294, 321);
+            this.label2.Location = new System.Drawing.Point(257, 257);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(306, 78);
+            this.label2.Size = new System.Drawing.Size(268, 62);
             this.label2.TabIndex = 4;
             this.label2.Text = "기숙사 관리 프로그램";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -98,9 +95,9 @@
             // 
             this.label1.BackColor = System.Drawing.Color.NavajoWhite;
             this.label1.Font = new System.Drawing.Font("Ink Free", 59.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(215, 88);
+            this.label1.Location = new System.Drawing.Point(188, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(462, 162);
+            this.label1.Size = new System.Drawing.Size(404, 130);
             this.label1.TabIndex = 3;
             this.label1.Text = "Poly Dormi";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -108,25 +105,24 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Poly_Dormitory.Properties.Resources.폴리텍_로고;
-            this.pictureBox1.Location = new System.Drawing.Point(728, 528);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(637, 422);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 124);
+            this.pictureBox1.Size = new System.Drawing.Size(108, 99);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(896, 701);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Poly Dormi";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

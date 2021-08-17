@@ -48,76 +48,76 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Baekdu.cs">
+    <Compile Include="UI\Sub\Baekdu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Baekdu.Designer.cs">
+    <Compile Include="UI\Sub\Baekdu.Designer.cs">
       <DependentUpon>Baekdu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Baekdu_Build.cs">
+    <Compile Include="UI\Sub\Baekdu_Build.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Baekdu_Build.Designer.cs">
+    <Compile Include="UI\Sub\Baekdu_Build.Designer.cs">
       <DependentUpon>Baekdu_Build.cs</DependentUpon>
     </Compile>
-    <Compile Include="Baekdu_Stat.cs">
+    <Compile Include="UI\Sub\Baekdu_Stat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Baekdu_Stat.Designer.cs">
+    <Compile Include="UI\Sub\Baekdu_Stat.Designer.cs">
       <DependentUpon>Baekdu_Stat.cs</DependentUpon>
     </Compile>
-    <Compile Include="Baekdu_S_New.cs">
+    <Compile Include="UI\Sub\Baekdu_S_New.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Baekdu_S_New.Designer.cs">
+    <Compile Include="UI\Sub\Baekdu_S_New.Designer.cs">
       <DependentUpon>Baekdu_S_New.cs</DependentUpon>
     </Compile>
-    <Compile Include="Baekdu_S_Update.cs">
+    <Compile Include="UI\Sub\Baekdu_S_Update.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Baekdu_S_Update.Designer.cs">
+    <Compile Include="UI\Sub\Baekdu_S_Update.Designer.cs">
       <DependentUpon>Baekdu_S_Update.cs</DependentUpon>
     </Compile>
-    <Compile Include="Halla_Build.cs">
+    <Compile Include="UI\Sub\Halla_Build.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Halla_Build.Designer.cs">
+    <Compile Include="UI\Sub\Halla_Build.Designer.cs">
       <DependentUpon>Halla_Build.cs</DependentUpon>
     </Compile>
-    <Compile Include="Halla.cs">
+    <Compile Include="UI\Sub\Halla.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Halla.Designer.cs">
+    <Compile Include="UI\Sub\Halla.Designer.cs">
       <DependentUpon>Halla.cs</DependentUpon>
     </Compile>
-    <Compile Include="Halla_S_New.cs">
+    <Compile Include="UI\Sub\Halla_S_New.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Halla_S_New.Designer.cs">
+    <Compile Include="UI\Sub\Halla_S_New.Designer.cs">
       <DependentUpon>Halla_S_New.cs</DependentUpon>
     </Compile>
-    <Compile Include="aRoom.cs">
+    <Compile Include="UI\Sub\aRoom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="aRoom.Designer.cs">
+    <Compile Include="UI\Sub\aRoom.Designer.cs">
       <DependentUpon>aRoom.cs</DependentUpon>
     </Compile>
-    <Compile Include="Halla_Stat.cs">
+    <Compile Include="UI\Sub\Halla_Stat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Halla_Stat.Designer.cs">
+    <Compile Include="UI\Sub\Halla_Stat.Designer.cs">
       <DependentUpon>Halla_Stat.cs</DependentUpon>
     </Compile>
-    <Compile Include="Halla_S_Update.cs">
+    <Compile Include="UI\Sub\Halla_S_Update.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Halla_S_Update.Designer.cs">
+    <Compile Include="UI\Sub\Halla_S_Update.Designer.cs">
       <DependentUpon>Halla_S_Update.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="UI\Main\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="UI\Main\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -128,40 +128,40 @@
     <Compile Include="trash.Designer.cs">
       <DependentUpon>trash.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Baekdu.resx">
+    <EmbeddedResource Include="UI\Sub\Baekdu.resx">
       <DependentUpon>Baekdu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Baekdu_Build.resx">
+    <EmbeddedResource Include="UI\Sub\Baekdu_Build.resx">
       <DependentUpon>Baekdu_Build.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Baekdu_Stat.resx">
+    <EmbeddedResource Include="UI\Sub\Baekdu_Stat.resx">
       <DependentUpon>Baekdu_Stat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Baekdu_S_New.resx">
+    <EmbeddedResource Include="UI\Sub\Baekdu_S_New.resx">
       <DependentUpon>Baekdu_S_New.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Baekdu_S_Update.resx">
+    <EmbeddedResource Include="UI\Sub\Baekdu_S_Update.resx">
       <DependentUpon>Baekdu_S_Update.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Halla_Build.resx">
+    <EmbeddedResource Include="UI\Sub\Halla_Build.resx">
       <DependentUpon>Halla_Build.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Halla.resx">
+    <EmbeddedResource Include="UI\Sub\Halla.resx">
       <DependentUpon>Halla.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Halla_S_New.resx">
+    <EmbeddedResource Include="UI\Sub\Halla_S_New.resx">
       <DependentUpon>Halla_S_New.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="aRoom.resx">
+    <EmbeddedResource Include="UI\Sub\aRoom.resx">
       <DependentUpon>aRoom.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Halla_Stat.resx">
+    <EmbeddedResource Include="UI\Sub\Halla_Stat.resx">
       <DependentUpon>Halla_Stat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Halla_S_Update.resx">
+    <EmbeddedResource Include="UI\Sub\Halla_S_Update.resx">
       <DependentUpon>Halla_S_Update.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="UI\Main\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -410,6 +410,7 @@
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.Name = "aRoom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "431호 정보";
             this.Load += new System.EventHandler(this.Halla_Room_Load);
             this.panel1.ResumeLayout(false);
