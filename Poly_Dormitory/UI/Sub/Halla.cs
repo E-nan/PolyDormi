@@ -16,7 +16,7 @@ namespace Poly_Dormitory
     {
         private MySqlConnection mConnection; // DB접속
         public static String url = "SERVER=LOCALHOST; USER=root; DATABASE=polydormi;" +
-                                   "PORT=3306; PASSWORD=0159; CharSet=utf8;";
+                                   "PORT=3306; PASSWORD=Enan)!%(; CharSet=utf8;";
 
         string name;
         string num;

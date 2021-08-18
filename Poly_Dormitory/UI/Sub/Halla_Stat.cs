@@ -16,7 +16,7 @@ namespace Poly_Dormitory
     {
         private MySqlConnection mConnection; // DB접속
         public static String url = "SERVER=LOCALHOST; USER=root; DATABASE=polydormi;" +
-                                   "PORT=3306; PASSWORD=0159; CharSet=utf8;";
+                                   "PORT=3306; PASSWORD=Enan)!%(; CharSet=utf8;";
         
         ListViewItem list;
         string room;
@@ -213,7 +213,6 @@ namespace Poly_Dormitory
             name = Student_View.FocusedItem.SubItems[0].Text;
             num = Student_View.FocusedItem.SubItems[1].Text;
             room = Student_View.FocusedItem.SubItems[3].Text;
-            MessageBox.Show(room);
         }
 
         private void Build_View_MouseClick(object sender, MouseEventArgs e)

@@ -15,8 +15,8 @@ namespace Poly_Dormitory
     public partial class Halla_S_New : Form
     {
         private MySqlConnection mConnection; // DB접속
-        public static String url = "SERVER=LOCALHOST; USER=root; DATABASE=polydormi;" +
-                                   "PORT=3306; PASSWORD=0159; CharSet=utf8;";
+        public static string url = "SERVER=LOCALHOST; USER=root; DATABASE=polydormi;" +
+                                   "PORT=3306; PASSWORD=Enan)!%(; CharSet=utf8;";
 
         string grade;
         string sex;

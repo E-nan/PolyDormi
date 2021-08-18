@@ -13,7 +13,7 @@ namespace Poly_Dormitory
     public partial class trash : Form
     {
         public static String url = "SERVER=LOCALHOST; USER=root; DATABASE=polydormi;" +
-                                   "PORT=3306; PASSWORD=0159; CHARSET=utf8";
+                                   "PORT=3306; PASSWORD=Enan)!%(; CHARSET=utf8";
                                    // DB접속 URL 설정 - SERVER : DB주소, USER : ID명, DATABASE : DB명, PORT : TCP 포트번호
                                    // PASSWORD : 비밀번호, 언어설정
 

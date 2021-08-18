@@ -193,5 +193,8 @@
   <ItemGroup>
     <None Include="Resources\폴리텍 로고.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Function\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
